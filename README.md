@@ -19,6 +19,8 @@
 [![Made by Spyder Group](https://img.shields.io/badge/Made%20by-Spyder%20Group-black.svg)](https://github.com/SpyderGroup)
 
 </div>
+---
+<img width="1837" height="293" alt="Screenshot 2026-03-22 204734" src="https://github.com/user-attachments/assets/4dbc3dd9-298b-4ff3-b924-a774c122bedc" />
 
 ---
 
