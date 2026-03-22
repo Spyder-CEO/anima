@@ -62,7 +62,7 @@ def cmd_chat(args):
 
         result = ai.chat(user_input)
         emotion = result["emotion"]
-        arc_flag = " ⚡ Arc" if result["arc_warning"] else ""
+        arc_flag = " Arc" if result["arc_warning"] else ""
         print(f"\nANIMA [{emotion['primary']} | RDS {result['rds']:.0f} | {result['mode']}{arc_flag}]")
         print(f"  {result['response']}\n")
 
@@ -103,7 +103,7 @@ def main():
     def add_common(p):
         p.add_argument("--user", required=True, help="User ID")
         p.add_argument("--key", default=None, help="Gemini API key (or set GEMINI_API_KEY)")
-        p.add_argument("--model", default="gemini-2.0-flash", help="Gemini model name")
+        p.add_argument("--model", default="gemini-2.5-flash-lite", help="Gemini model name")
 
     chat_p = sub.add_parser("chat", help="Start an ANIMA chat session")
     add_common(chat_p)
