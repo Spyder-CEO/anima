@@ -69,7 +69,7 @@ class ANIMA:
         self,
         api_key: str,
         user_id: str,
-        model: str = "gemini-2.0-flash",
+        model: str = "gemini-2.5-flash-lite",
         base_dir: Optional[str] = None
     ):
         self.user_id = user_id
