@@ -286,7 +286,7 @@ pip install -e ".[dev]"
 **Spyder Group**
 *Building foundational AI infrastructure.*
 
- · [Website](https://spyderglobalgroup.com)
+ · [Website](https://spyderglobal.group)
 
 </div>
 
