@@ -44,14 +44,14 @@ No vector databases. No cloud dependencies. Pure Python. Works with any LLM.
 
 | Feature | Description |
 |---|---|
-| 🧠 **6D Emotion Tensor** | Detects primary emotion + valence, arousal, dominance, intensity, context |
-| ⚡ **Arc Prediction** | Identifies `curious → stuck → frustrated` patterns and intervenes early |
-| 📈 **Relationship Depth Score** | 0-100 score unlocks 4 communication modes as trust deepens |
-| 🔁 **Self-Rewriting Strategies** | LLM writes and rewrites its own system prompts per emotional state |
-| 🎭 **Evolving Persona** | AI earns relationship-specific traits like `uses_analogies_for_alice` |
-| 💾 **Soul Portability** | Export/import your soul across any model or instance |
-| 🔌 **Plugin Hook API** | `@ai.on("emotion_detected")` — attach any callback to any event |
-| 🗂️ **Zero-DB Architecture** | Three JSON files. No Postgres, no Redis, no Pinecone. |
+| **6D Emotion Tensor** | Detects primary emotion + valence, arousal, dominance, intensity, context |
+| **Arc Prediction** | Identifies `curious → stuck → frustrated` patterns and intervenes early |
+| **Relationship Depth Score** | 0-100 score unlocks 4 communication modes as trust deepens |
+| **Self-Rewriting Strategies** | LLM writes and rewrites its own system prompts per emotional state |
+| **Evolving Persona** | AI earns relationship-specific traits like `uses_analogies_for_alice` |
+| **Soul Portability** | Export/import your soul across any model or instance |
+| **Plugin Hook API** | `@ai.on("emotion_detected")` — attach any callback to any event |
+| **Zero-DB Architecture** | Three JSON files. No Postgres, no Redis, no Pinecone. |
 
 ---
 
@@ -286,7 +286,7 @@ pip install -e ".[dev]"
 **Spyder Group**
 *Building foundational AI infrastructure.*
 
-[GitHub](https://github.com/SpyderGroup) · [Website](https://spyderglobalgroup.com)
+· [Website](https://spyderglobalgroup.com)
 
 </div>
 
