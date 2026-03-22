@@ -105,20 +105,20 @@ User message
      │
      ▼
 ┌─────────────────┐     ┌──────────────────┐
-│  Emotion Tensor  │────▶│   Arc Predictor   │
-│  Detector (6D)   │     │  (sequence match) │
+│  Emotion Tensor │────▶│   Arc Predictor  │
+│  Detector (6D)  │     │  (sequence match) │
 └─────────────────┘     └────────┬─────────┘
                                   │
      ┌────────────────────────────▼──────────┐
-     │           Strategy Manager             │
+     │           Strategy Manager            │
      │  exact key → fallback → generate new  │
      │  score strategies passively each turn │
      │  rewrite if score drops below 2.2     │
      └────────────────────────────┬──────────┘
                                   │
      ┌────────────────────────────▼──────────┐
-     │         Relationship Engine            │
-     │  RDS += f(intensity, valence)          │
+     │         Relationship Engine           │
+     │  RDS += f(intensity, valence)         │
      │  unlocks: Formal→Familiar→Trusted→Deep│
      └────────────────────────────┬──────────┘
                                   │
